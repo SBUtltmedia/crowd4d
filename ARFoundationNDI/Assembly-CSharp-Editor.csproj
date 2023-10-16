@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{cf341cd5-ec82-3795-a00e-75501fba6ea0}</ProjectGuid>
+    <ProjectGuid>{b104d2d3-90ac-166a-73c3-50e84944b326}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -280,19 +280,19 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/PackageCache/org.nuget.system.buffers@4.4.0/System.Buffers.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/org.nuget.system.buffers@4.4.0/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/PackageCache/org.nuget.system.memory@4.5.3/System.Memory.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/org.nuget.system.memory@4.5.3/System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/PackageCache/org.nuget.system.numerics.vectors@4.4.0/System.Numerics.Vectors.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/org.nuget.system.numerics.vectors@4.4.0/System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/PackageCache/org.nuget.system.runtime.compilerservices.unsafe@4.5.2/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/org.nuget.system.runtime.compilerservices.unsafe@4.5.2/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -649,96 +649,102 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARCore.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="ARKitStream.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/ARKitStream.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/ARKitStream.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Ndi.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Klak.Ndi.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Ndi.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Klak.Ndi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Ndi.Runtime">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Klak.Ndi.Runtime.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Klak.Ndi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARCore">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="ARKitStream">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/ARKitStream.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/ARKitStream.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.FaceTracking">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
-        <HintPath>/Users/mohsalam/Desktop/ARKitStreamer/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9873e9e2-2541-c9e5-ff31-554dfe6596f8}</Project>
+      <Project>{11437d27-772c-3fce-f66d-fc5c12ea64f9}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
