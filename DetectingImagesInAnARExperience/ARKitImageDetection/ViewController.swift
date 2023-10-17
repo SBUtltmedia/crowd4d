@@ -15,6 +15,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet weak var blurView: UIVisualEffectView!
     
+    weak var instanceAnchor: ARImageAnchor!
+
     /// The view controller that displays the status and "restart experience" UI.
     lazy var statusViewController: StatusViewController = {
         return children.lazy.compactMap({ $0 as? StatusViewController }).first!
@@ -81,21 +83,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
 func renderer(
     _ renderer: SCNSceneRenderer,
-updateAtTime time: TimeInterval
-
-    ){
+updateAtTime time: TimeInterval//, didAdd node: SCNNode, for anchor: ARAnchor
+){
             //  guard let imageAnchor = anchor as? ARImageAnchor else { return }    
-// print(imageAnchor.transform)
-// print("f")
+    // print(self.instanceAnchor)
 }
 
 
     // MARK: - ARSCNViewDelegate (Image detection results)
     /// - Tag: ARImageAnchor-Visualizing
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
-        print("g")
+        print("RENDERED 2 RAN")
+        
         guard let imageAnchor = anchor as? ARImageAnchor else { return }
         let referenceImage = imageAnchor.referenceImage
+        if (imageAnchor != nil){
+            self.instanceAnchor = imageAnchor
+        }    
+        
         updateQueue.async {
             
             // Create a plane to visualize the initial position of the detected image.

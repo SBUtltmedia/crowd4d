@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638325717580000000
+      ticks: 638331611340000000
     m_Hash: 3750236323
   m_LockFileStatus:
     m_FilePath: /Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638325717580000000
+      ticks: 638331611340000000
     m_Hash: 3776794775
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
@@ -23,7 +23,7 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638325717580000000
+        ticks: 638331611340000000
       m_Hash: 1258206458
 m_PackageAssets:
   m_Packages:
@@ -683,12 +683,14 @@ m_PackageAssets:
         - 1.7.3
         - 1.7.4
         - 1.7.5
+        - 1.7.6
         - 1.8.0
         - 1.8.1
         - 1.8.2
         - 1.8.3
         - 1.8.4
         - 1.8.5
+        - 1.8.6
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -722,12 +724,14 @@ m_PackageAssets:
         - 1.7.3
         - 1.7.4
         - 1.7.5
+        - 1.7.6
         - 1.8.0
         - 1.8.1
         - 1.8.2
         - 1.8.3
         - 1.8.4
         - 1.8.5
+        - 1.8.6
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
