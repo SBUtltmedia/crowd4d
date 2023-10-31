@@ -2,7 +2,7 @@ Unity Editor version:    2020.3.48f1 (b805b124c6b7)
 Branch:                  2020.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 13.5.2 (Build 22G91)
+macOS version:           Version 13.6 (Build 22G120)
 Darwin version:          22.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
@@ -22,104 +22,104 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56435
+55642
 Successfully changed project path to: /Users/mohsalam/Desktop/crowd4d/ARFoundationNDI
 /Users/mohsalam/Desktop/crowd4d/ARFoundationNDI
 Using Asset Import Pipeline V2.
-Player connection [140704396793600] Host "[IP] 129.49.17.173 [Port] 0 [Flags] 2 [Guid] 1022357547 [EditorId] 1022357547 [Version] 1048832 [Id] OSXEditor(0,widow-tll) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704504981248] Host "[IP] 129.49.17.173 [Port] 0 [Flags] 2 [Guid] 1079660716 [EditorId] 1079660716 [Version] 1048832 [Id] OSXEditor(0,widow-tll) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704396793600] Host "[IP] 129.49.17.173 [Port] 0 [Flags] 2 [Guid] 1022357547 [EditorId] 1022357547 [Version] 1048832 [Id] OSXEditor(0,widow-tll) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704504981248] Host "[IP] 129.49.17.173 [Port] 0 [Flags] 2 [Guid] 1079660716 [EditorId] 1079660716 [Version] 1048832 [Id] OSXEditor(0,widow-tll) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 33.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.48f1 (b805b124c6b7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Assets
 GfxDevice: creating device client; threaded=0
-2023-10-17 15:54:01.772 Unity[20866:2843493] ASUS PA238QR preferred device: AMD Radeon Pro Vega 56 (high power)
-2023-10-17 15:54:01.772 Unity[20866:2843493] Metal devices available: 1
-2023-10-17 15:54:01.772 Unity[20866:2843493] 0: AMD Radeon Pro Vega 56 (high power)
-2023-10-17 15:54:01.772 Unity[20866:2843493] Using device AMD Radeon Pro Vega 56 (high power)
+2023-10-26 14:12:19.173 Unity[84159:1020595] ASUS PA238QR preferred device: AMD Radeon Pro Vega 56 (high power)
+2023-10-26 14:12:19.173 Unity[84159:1020595] Metal devices available: 1
+2023-10-26 14:12:19.173 Unity[84159:1020595] 0: AMD Radeon Pro Vega 56 (high power)
+2023-10-26 14:12:19.174 Unity[84159:1020595] Using device AMD Radeon Pro Vega 56 (high power)
 Initializing Metal device caps: AMD Radeon Pro Vega 56
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56866
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56159
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002300 seconds.
+Registered in 0.000907 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 26.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
+- Completed reload, in  0.623 seconds
 Domain Reload Profiling:
-	ReloadAssembly (618ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (462ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (164ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002049 seconds.
+Registered in 0.002329 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 26.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.913 seconds
+- Completed reload, in  1.087 seconds
 Domain Reload Profiling:
-	ReloadAssembly (914ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (695ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (217ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003610 seconds.
+Validating Project structure ... 0.002790 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.004387 seconds.
+Upgrading shader files ...0.003859 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -133,14 +133,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.0 MB.
-System memory in use after: 93.0 MB.
+Unloading 2876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.2 MB.
+System memory in use after: 133.3 MB.
 
-Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 2038.
-Total: 4.179678 ms (FindLiveObjects: 0.171764 ms CreateObjectMapping: 0.041644 ms MarkObjects: 3.290356 ms  DeleteObjects: 0.675101 ms)
+Unloading 185 unused Assets to reduce memory usage. Loaded Objects now: 3353.
+Total: 4.305462 ms (FindLiveObjects: 0.315474 ms CreateObjectMapping: 0.143988 ms MarkObjects: 3.124573 ms  DeleteObjects: 0.720620 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -154,18 +154,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ARFoundationWithOpenCVForUnityExample/Scripts/ARGameObject.cs
-  artifactKey: Guid(96d1f1ba465135148a5486a49cef1e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationWithOpenCVForUnityExample/Scripts/ARGameObject.cs using Guid(96d1f1ba465135148a5486a49cef1e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0b63e2fba7c9c9993504346eb3d664') in 0.269616 seconds 
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Swarm Particle System.vfx
+  artifactKey: Guid(b84f73c7c4a6c6443a3bfbb2f7a504f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Swarm Particle System.vfx using Guid(b84f73c7c4a6c6443a3bfbb2f7a504f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11091d71fe1a68b4a3ec88032906f4c') in 0.143967 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.297358 seconds.
-  path: Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationWithOpenCVForUnityExample.cs
-  artifactKey: Guid(5c50b93c0f9e1044c9e15c85dd244189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationWithOpenCVForUnityExample.cs using Guid(5c50b93c0f9e1044c9e15c85dd244189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284eb8b2bf1182259997c6439217e1c1') in 0.002374 seconds 
+  Time since last request: 0.000305 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Empty Particle System.vfx
+  artifactKey: Guid(b7261d938a155b74cb61a60a16d9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Empty Particle System.vfx using Guid(b7261d938a155b74cb61a60a16d9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927a11f56b37af0da4f441ccd0448706') in 0.003931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.091378 seconds.
-  path: Assets/XR
-  artifactKey: Guid(25bd923be263d44caa4ec95a03a86c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR using Guid(25bd923be263d44caa4ec95a03a86c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2248d9280b8eb245e89f8e66f7be36f0') in 0.002320 seconds 
+  Time since last request: 0.000278 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Ribbon.vfx
+  artifactKey: Guid(c071abb088c76054bb603238f21bce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Ribbon.vfx using Guid(c071abb088c76054bb603238f21bce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc7fd4bd66af9680f6aafb51a74d98c') in 0.003193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Heads & Trails.vfx
+  artifactKey: Guid(f0efff9416db4174984390120a80ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Heads & Trails.vfx using Guid(f0efff9416db4174984390120a80ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13df108a624aa77a417b3e15f1758e1') in 0.003814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Mesh Output.vfx
+  artifactKey: Guid(57035ce66d1229144bd535d37615b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Mesh Output.vfx using Guid(57035ce66d1229144bd535d37615b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be97eb85032532c981600a6c7e05350') in 0.002355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Heads & Sparks.vfx
+  artifactKey: Guid(092c27d29de329c43aa5ad8ca20e4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Heads & Sparks.vfx using Guid(092c27d29de329c43aa5ad8ca20e4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19295043f908eb109a9d5f6c5977c4af') in 0.003511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Particle System.vfx
+  artifactKey: Guid(a8d8823499ff50847aa460cb119c445d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/Simple Particle System.vfx using Guid(a8d8823499ff50847aa460cb119c445d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f84dc2f5ef7e445bd88a71d156d08c4') in 0.003330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.675441 seconds.
+  path: Packages/com.unity.xr.arcore/Assets
+  artifactKey: Guid(5240fe65ba7be46b191a73822f0072a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arcore/Assets using Guid(5240fe65ba7be46b191a73822f0072a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329869d51317adffcce7c6e480e146c6') in 0.001371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 519.341642 seconds.
+  path: Assets/Record3D_Simple_Streaming.vfx
+  artifactKey: Guid(0771678c4f30c4a14b6ad7a992f4f328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Record3D_Simple_Streaming.vfx using Guid(0771678c4f30c4a14b6ad7a992f4f328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad9770cf3f330a30d63df5b65709168') in 0.004468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.659072 seconds.
+  path: Assets/Record3D_Simple_Streaming.vfx
+  artifactKey: Guid(0771678c4f30c4a14b6ad7a992f4f328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Record3D_Simple_Streaming.vfx using Guid(0771678c4f30c4a14b6ad7a992f4f328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd0e2559a4266153f3fa81f74c666ff') in 0.006513 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

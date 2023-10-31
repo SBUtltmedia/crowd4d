@@ -36,20 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/Scripts/Utils/ARFoundationCameraToMatHelper.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationWithOpenCVForUnityExample.cs" />
      <Compile Include="Assets/Samples/Scripts/Runtime/HumanBodyPreview.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ShowSystemInfo.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/Scripts/Utils/RuntimePermissionHelper.cs" />
      <Compile Include="Assets/Samples/Scripts/Runtime/GoToSceneButton.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationCameraArUcoExample/LightEstimationManager.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ShowLicense.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/Scripts/ARGameObject.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationCameraToMatHelperExample/ARFoundationCameraToMatHelperExample.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationCameraToMatExample/ARFoundationCameraToMatExample.cs" />
      <Compile Include="Assets/Samples/Scripts/Runtime/SimplePreview.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/Scripts/Utils/FpsMonitor.cs" />
-     <Compile Include="Assets/ARFoundationWithOpenCVForUnityExample/ARFoundationCameraArUcoExample/ARFoundationCameraArUcoExample.cs" />
      <Compile Include="Assets/Samples/Scripts/Runtime/FacePreview.cs" />
      <Compile Include="Assets/Samples/Scripts/Runtime/BlendShapeInfo.cs" />
      <None Include="Assets/Samples/Resources/Human Segmentation/ARKitStreamPreview.shader" />

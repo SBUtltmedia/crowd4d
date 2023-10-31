@@ -25,6 +25,7 @@
     "com.unity.test-framework": "1.1.33",
     "com.unity.timeline": "1.4.8",
     "com.unity.ugui": "1.0.0",
+    "com.unity.visualeffectgraph": "10.10.1",
     "com.unity.xr.arcore": "4.1.13",
     "com.unity.xr.arkit-face-tracking": "4.2.3",
     "org.nuget.system.memory": "4.5.3",

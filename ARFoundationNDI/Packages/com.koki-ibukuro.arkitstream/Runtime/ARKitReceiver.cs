@@ -4,12 +4,17 @@ using Klak.Ndi;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.Experimental.VFX;
+using UnityEngine.VFX;
 
 namespace ARKitStream
 {
     [DisallowMultipleComponent]
     public sealed class ARKitReceiver : MonoBehaviour
     {
+        [SerializeField]
+        private VisualEffect streamEffect;
+
         [SerializeField] private NdiResources resources = null;
 
         private NdiReceiver ndiReceiver = null;
@@ -29,6 +34,25 @@ namespace ARKitStream
         public Texture2D CbCrTexture => texture2Ds == null ? null : texture2Ds[1];
         public Texture2D StencilTexture => texture2Ds == null ? null : texture2Ds[2];
         public Texture2D DepthTexture => texture2Ds == null ? null : texture2Ds[3];
+
+//--------------------------------------
+        // positionTex = new Texture2D(width, height, TextureFormat.RGBAFloat, false)
+        // {
+        //     filterMode = FilterMode.Point
+        // };
+
+        // colorTex = new Texture2D(width, height, TextureFormat.RGB24, false)
+        // {
+        //     filterMode = FilterMode.Point
+        // };
+
+        // int numParticles = width * height;
+
+        // streamEffect.SetInt("Number of Particles", numParticles);
+        streamEffect.SetTexture("Particle Position Texture", DepthTexture);
+        streamEffect.SetTexture("Particle Color Texture", CbCrTexture);
+        
+//--------------------------------------
 
         public TrackingState trackingState
         {

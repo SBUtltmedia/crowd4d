@@ -93,13 +93,14 @@ updateAtTime time: TimeInterval//, didAdd node: SCNNode, for anchor: ARAnchor
     // MARK: - ARSCNViewDelegate (Image detection results)
     /// - Tag: ARImageAnchor-Visualizing
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
-        print("RENDERED 2 RAN")
+        print("RENDERER 2 RAN")
         
         guard let imageAnchor = anchor as? ARImageAnchor else { return }
         let referenceImage = imageAnchor.referenceImage
-        if (imageAnchor != nil){
-            self.instanceAnchor = imageAnchor
-        }    
+        
+        self.instanceAnchor = imageAnchor
+        print(imageAnchor)
+            
         
         updateQueue.async {
             
