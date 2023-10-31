@@ -3,9 +3,7 @@
     {
       "name": "Unity NuGet",
       "url": "https://unitynuget-registry.azurewebsites.net",
-      "scopes": [
-        "org.nuget"
-      ]
+      "scopes": [ "org.nuget" ]
     },
     {
       "name": "npm",
@@ -18,16 +16,16 @@
   ],
   "dependencies": {
     "com.koki-ibukuro.arkitstream": "0.5.2",
-    "com.unity.ext.nunit": "1.0.6",
+    "com.unity.ai.navigation": "2.0.0-pre.3",
+    "com.unity.ext.nunit": "2.0.5",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.mathematics": "1.2.6",
-    "com.unity.subsystemregistration": "1.1.1",
-    "com.unity.test-framework": "1.1.33",
-    "com.unity.timeline": "1.4.8",
-    "com.unity.ugui": "1.0.0",
-    "com.unity.visualeffectgraph": "10.10.1",
-    "com.unity.xr.arcore": "4.1.13",
-    "com.unity.xr.arkit-face-tracking": "4.2.3",
+    "com.unity.test-framework": "1.3.7",
+    "com.unity.timeline": "1.8.4",
+    "com.unity.ugui": "2.0.0",
+    "com.unity.visualeffectgraph": "16.0.3",
+    "com.unity.xr.arcore": "5.1.0",
+    "com.unity.xr.arkit-face-tracking": "5.0.2",
     "org.nuget.system.memory": "4.5.3",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

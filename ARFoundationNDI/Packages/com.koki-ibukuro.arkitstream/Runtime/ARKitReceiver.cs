@@ -4,16 +4,17 @@ using Klak.Ndi;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.XR.ARSubsystems;
-using UnityEngine.Experimental.VFX;
-using UnityEngine.VFX;
+// using UnityEngine.Experimental.VFX;
+// using UnityEngine.VFX;
+// using System.Diagnostics;
 
 namespace ARKitStream
 {
     [DisallowMultipleComponent]
     public sealed class ARKitReceiver : MonoBehaviour
     {
-        [SerializeField]
-        private VisualEffect streamEffect;
+    //     [SerializeField]
+    //     private VisualEffect streamEffect;
 
         [SerializeField] private NdiResources resources = null;
 
@@ -49,9 +50,12 @@ namespace ARKitStream
         // int numParticles = width * height;
 
         // streamEffect.SetInt("Number of Particles", numParticles);
-        streamEffect.SetTexture("Particle Position Texture", DepthTexture);
-        streamEffect.SetTexture("Particle Color Texture", CbCrTexture);
-        
+        // streamEffect.SetTexture("Particle Position Texture", DepthTexture);
+        // streamEffect.SetTexture("Particle Color Texture", CbCrTexture);
+
+        // Debug.WriteLine("this is the DepthTexture:", DepthTexture);
+        // Debug.WriteLine("this is the CbCrTexture:", CbCrTexture);
+
 //--------------------------------------
 
         public TrackingState trackingState
@@ -145,10 +149,12 @@ namespace ARKitStream
         }
 
         public static ARKitReceiver Instance { get; private set; } = null;
-
+        
         private void Awake()
         {
             // It works only in Editor!
+            
+            
             if (!Application.isEditor)
             {
                 Destroy(gameObject);
@@ -202,8 +208,35 @@ namespace ARKitStream
             }
         }
 
+//---------------------------------------------------------------------------------------------------
+        Texture2D duplicateTexture(Texture2D source)
+        {
+            RenderTexture renderTex = RenderTexture.GetTemporary(
+                        source.width,
+                        source.height,
+                        0,
+                        RenderTextureFormat.Default,
+                        RenderTextureReadWrite.Linear);
+
+            Graphics.Blit(source, renderTex);
+            RenderTexture previous = RenderTexture.active;
+            RenderTexture.active = renderTex;
+            Texture2D readableText = new Texture2D(source.width, source.height);
+            readableText.ReadPixels(new Rect(0, 0, renderTex.width, renderTex.height), 0, 0);
+            readableText.Apply();
+            RenderTexture.active = previous;
+            RenderTexture.ReleaseTemporary(renderTex);
+            return readableText;
+        }
+
+//---------------------------------------------------------------------------------------------------
         private void Update()
         {
+            Texture2D copy = duplicateTexture(texture2Ds);
+            // Debug.Log("this is the DepthTexture:", DepthTexture);
+            // Debug.Log("this is the CbCrTexture:", CbCrTexture);
+            Debug.Log("this are the texture2Ds:", copy);
+
             var rt = ndiReceiver.texture;
             if (rt == null)
             {

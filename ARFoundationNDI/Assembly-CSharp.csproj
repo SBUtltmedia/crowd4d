@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_48;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_IOS;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_XR_ARKIT_FACE_TRACKING_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_48;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_IOS;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_XR_ARKIT_FACE_TRACKING_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -264,6 +264,9 @@
     </Reference>
     <Reference Include="System.Memory">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/org.nuget.system.memory@4.5.3/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/org.nuget.system.numerics.vectors@4.4.0/System.Numerics.Vectors.dll</HintPath>
@@ -622,8 +625,14 @@
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARKit">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -637,6 +646,9 @@
     <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARFoundation.InternalUtils">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
@@ -646,14 +658,11 @@
     <Reference Include="Unity.Subsystem.Registration">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="ARKitStream.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/ARKitStream.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
@@ -661,14 +670,26 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Simulation.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.Simulation.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Klak.Ndi.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Klak.Ndi.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    <Reference Include="Unity.XR.ARAnalytics.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARAnalytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.VisualScripting">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -676,8 +697,8 @@
     <Reference Include="Klak.Ndi.Runtime">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Klak.Ndi.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.CoreUtils">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
@@ -691,8 +712,11 @@
     <Reference Include="Unity.XR.ARCore">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="ARKitStream">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/ARKitStream.dll</HintPath>
@@ -706,8 +730,14 @@
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Simulation">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.Simulation.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARFoundation">
         <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.VisualScripting.Editor">
+        <HintPath>/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/ScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
