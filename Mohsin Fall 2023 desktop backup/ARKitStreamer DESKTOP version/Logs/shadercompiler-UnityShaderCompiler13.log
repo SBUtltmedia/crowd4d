@@ -1,0 +1,15 @@
+Base path: '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=9221 file=/Users/mohsalam/Desktop/crowd4d/ARFoundationNDI/Library/PackageCache/com.unity.visualeffectgraph@10.10.1/Shaders/Sort.compute kernel=BitonicPrePass cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=2 km=<BITONIC_SORT=BitonicPrePass>,<ELEMENTS_COUNT=4096>,<ITERATIONS_COUNT=2>,<FINAL_PASS=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=metal flags=4096 ok=1 outsize=6845
+
+Cmd: compileComputeKernel
+  insize=6142 file=/Users/mohsalam/Desktop/crowd4d/ARKitStreamer DESKTOP version/Assets/Depth Test.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=2 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=metal flags=4096 ok=1 outsize=3742
+
+Cmd: compileComputeKernel
+  insize=6634 file=/Users/mohsalam/Desktop/crowd4d/ARKitStreamer DESKTOP version/Assets/Depth Test.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=2 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=metal flags=4096 ok=1 outsize=3165
+
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process
